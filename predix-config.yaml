@@ -1,0 +1,27 @@
+---
+Version: 0.0.1
+Request:
+  uaa_get_token:
+    type: POST
+    header:
+      content-type: application/x-www-form-urlencoded
+      predix-zone-id: a3a0ff3a-39b8-4ecc-8ea7-aa1fbaf2e33a
+      authorization: Basic bG9naW5fY2xpZW50X2lkOjQ1NTY3ODkzNDI=
+    url: https://a3a0ff3a-39b8-4ecc-8ea7-aa1fbaf2e33a.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
+    payload: grant_type=client_credentials
+
+  timeseries_query_tags:
+    type: GET
+    header:
+      predix-zone-id: 3f3ba2f5-8435-4250-8e0b-9f2db03b776a
+      authorization: ~
+    url: https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/tags
+
+  timeseries_query_data:
+    type: POST
+    header:
+      content-type: application/json
+      predix-zone-id: 3f3ba2f5-8435-4250-8e0b-9f2db03b776a
+      authorization: ~
+    url: https://time-series-store-predix.run.aws-usw02-pr.ice.predix.io/v1/datapoints
+    payload: ~
