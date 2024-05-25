@@ -1,10 +1,3 @@
-# @title: PredixServices.py
-# @author: Nathan North
-# @description: Python version to call some of the major services within Predix.
-# version: 0.01
-# Copywrite - all rights reserved. DO NOT COPY OR DISTRIBUTE.
-
-
 from websocket import create_connection
 import requests
 import json
