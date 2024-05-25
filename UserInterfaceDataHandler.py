@@ -1,8 +1,3 @@
-# @Author: Nathan North
-# @Org: GE Transportation
-# @Project: Series X
-# Copywrite - all rights reserved. DO NOT COPY OR DISTRIBUTE.
-
 from PredixServices import PredixServices
 import time
 import datetime
