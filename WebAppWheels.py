@@ -1,8 +1,3 @@
-# @Author: Nathan North,Pradeep Rawat
-# @Org: GE Transportation
-# @Project: Series X
-# Copywrite - all rights reserved. DO NOT COPY OR DISTRIBUTE.
-
 from flask import Flask, render_template, redirect, url_for, request, Response, session
 from UserInterfaceDataHandler import UserInterfaceDataHandler
 import os
